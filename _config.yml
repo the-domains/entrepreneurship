@@ -1,14 +1,26 @@
-layout_spectrum: 0.9229391
-typography_spectrum: 0.7910452
 color:
   saturation: 0.1675525
   brandStrength: 0.9012405
-  lightness: 0.9689661
+  rhythmicContrast: 0.6540838
   brandColors:
     - '#000000'
     - '#FFFFFF'
     - '#92AC6D'
     - '#05FDFB'
     - '#91FCFD'
-  rhythmicContrast: 0.6540838
+  lightness: 0.9689661
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.9229391
+typography_spectrum: 0.7910452
 name: Entrepreneurship
